@@ -12,7 +12,7 @@ import { Evento } from '../../models/Evento';
   // providers: [EventoService]
 })
 export class EventosComponent implements OnInit {
-  modalRef: BsModalRef;
+  modalRef = {} as BsModalRef;
   public eventos: Evento[] = [];
   public eventosFiltrados: Evento[] = [];
 
